@@ -2,7 +2,7 @@ body {
     width: 60%;
     max-width: 900px;
     margin: 0 auto;
-    font-family: '', monospace;
+    font-family: 'inconsolata', monospace;
 }
 
 h1 {
@@ -38,17 +38,18 @@ p {
 ul {
     padding: 0;
     margin: 0;
+    margin: auto;
+    width: 720;
 }
 
 ul li {
     list-style: none;
     float: left;
-    width: 33.2%;
+    width: 30%;
     text-align: center;
     font-size: 14px;
-    margin: -.5;
     padding: 40 0 40 0;
-    border: 1px solid darkgray;
+    margin: 0 auto;
 }
 
 a {
