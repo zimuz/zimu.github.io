@@ -1,8 +1,11 @@
 body {
+    font-family: 'inconsolata', monospace;
+}
+
+#wrapper {
     width: 60%;
     max-width: 900px;
     margin: 0 auto;
-    font-family: 'inconsolata', monospace;
 }
 
 h1 {
@@ -35,14 +38,30 @@ p {
     font-size: 14px;
 }
 
-ul {
+#nav {
+    float: left;
+    list-style-type: none;
+    margin-top: 96;
+}
+
+#nav li {
+    width: 100px;
+    display: list-item;
+    padding: 10 0 10 0;
+}
+
+#nav a {
+    color: darkgray;
+}
+
+#examtable ul {
     padding: 0;
     margin: 0;
     margin: auto;
     width: 720;
 }
 
-ul li {
+#examtable li {
     list-style: none;
     float: left;
     width: 30%;
